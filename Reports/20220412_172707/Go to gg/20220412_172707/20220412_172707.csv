@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Go to gg,Chrome 100.0.4896.75,,,2022-04-12 17:27:10,2022-04-12 17:27:18,8.464s,PASSED
+,,,,,,,
+Test Cases/Go to google,Chrome 100.0.4896.75,,,2022-04-12 17:27:10,2022-04-12 17:27:18,8.256s,PASSED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-04-12 17:27:10,2022-04-12 17:27:13,2.319s,PASSED
+"navigateToUrl(""https://www.google.com/?gws_rd=ssl"")",Chrome 100.0.4896.75,,,2022-04-12 17:27:13,2022-04-12 17:27:16,3.374s,PASSED
+"setText(findTestObject(""Object Repository/Page_Google/input__q""), ""katalon"")",Chrome 100.0.4896.75,,,2022-04-12 17:27:16,2022-04-12 17:27:16,0.265s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Google/input__q""), Keys.chord(ENTER))",Chrome 100.0.4896.75,,,2022-04-12 17:27:16,2022-04-12 17:27:18,2.009s,PASSED
